@@ -5,13 +5,26 @@ About a month ago I started the MAWK (Modular Analog Wireless Keyboard) project,
 
 # What I've done
 
-## 2026.01.17 2h
+## 2026.01.17 - 2h
 ### Working environment, licences, MCU, firmware
 
 Set up local and GitHub repositories.
 
 Chose licences for firmware (MIT Licence) and hardware (CERN Open Hardware Licence Version 2 - Permissive)
 
-Decided to use nRF52840 for its good connectivity options and because I am going to use it later MAWK, so I can already gain some experience with it.
+Decided to use [nRF52840 QFN73](https://www.aliexpress.com/item/1005005069398861.html) for its good connectivity options and because I am going to use it later MAWK, so I can already gain some experience with it.
 
 For the firmware I chose ZMK. It supports USB, BLE and allows using proprietary 2.GHz radio protocols, which I plan to employ fo the 2.4GHz USB dongle.
+
+## 2026.01.18 - 2h
+### Started schematic design
+
+For battery charging I will be using [MCP73871 2CC](https://www.aliexpress.com/item/1005008336731440.html).
+
+For the optical sensor I chose [PAW3395DM-T6QU with a LM19-LSI lens](https://www.aliexpress.com/item/1005009206404384.html)
+
+USB protections: [MDD(Microdiode Semiconductor) SMF5.0A](https://www.lcsc.com/product-detail/C193402.html), [Littelfuse 1206L110THYR](https://www.lcsc.com/product-detail/C126818.html) on VBUS and [Leiditech TPD2EUSB30DRTR](https://www.lcsc.com/product-detail/C3040102.html) on data lines.
+
+So far I've chosen the main componenets and done the USB-C port schematics.
+
+![2026.01.18 schematic](<Images/2026.01.18 schematic.svg>)
