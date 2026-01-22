@@ -1,4 +1,4 @@
-28003970464072213
+28014615615663914
 1N5819HW_7_F
 SOD3715X145N
 
@@ -59779,6 +59779,13 @@ ceramic
 0
 3
 3
+D2F
+D2F-F
+
+
+0
+3
+3
 D5V0P1B2LP-7B
 DIODFN101X61X53-2N
 
@@ -71427,6 +71434,13 @@ Yellow 5381 Series LED
 0
 2
 2
+MCP1801T_3302I_OT
+SOT95P270X145-5N
+
+
+0
+5
+5
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -103935,6 +103949,13 @@ Logo WEEE
 0
 0
 0
+TPD2EUSB30DRTR
+SOTFL35P100X50-3N
+
+
+0
+3
+3
 TerminalBlock
 TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm
 terminal block MaiXu MX126-5.0-02P, 2 pins, pitch 5mm, size 10.5x7.8mm, drill diameter 1.3mm, pad diameter 2.8mm, https://www.lcsc.com/datasheet/lcsc_datasheet_2309150913_MAX-MX126-5-0-03P-GN01-Cu-S-A_C5188435.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_MaiXu
@@ -110922,23 +110943,44 @@ Varistor VF
 2
 2
 footprints
-CAP_UCD_10X10_NCH
+1206LSeries_LTF
 
-UCM1C102MNL1GS 
+1206L110THYR 
 0
 2
 2
 footprints
-CAP_UCD_10X10_NCH-L
+1206LSeries_LTF-L
 
-UCM1C102MNL1GS 
+1206L110THYR 
 0
 2
 2
 footprints
-CAP_UCD_10X10_NCH-M
+1206LSeries_LTF-M
 
-UCM1C102MNL1GS 
+1206L110THYR 
 0
 2
 2
+footprints
+SOT-23-5_MC_MCH
+
+MCP1801T-1802I/OT 
+0
+5
+5
+footprints
+SOT-23-5_MC_MCH-L
+
+MCP1801T-1802I/OT 
+0
+5
+5
+footprints
+SOT-23-5_MC_MCH-M
+
+MCP1801T-1802I/OT 
+0
+5
+5

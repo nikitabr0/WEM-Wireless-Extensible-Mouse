@@ -3,4 +3,6 @@
   (lib (name "PAW3395DM-T6QU")(type "KiCad")(uri "${KIPRJMOD}/Libraries/PAW3395DM-T6QU.pretty")(options "")(descr ""))
   (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/Libraries/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "TPD2EUSB30DRTR")(type "KiCad")(uri "${KIPRJMOD}/Libraries/TPD2EUSB30DRTR")(options "")(descr ""))
+  (lib (name "MCP1801T_3302I_OT")(type "KiCad")(uri "${KIPRJMOD}/Libraries/MCP1801T_3302I_OT")(options "")(descr ""))
+  (lib (name "D2F")(type "KiCad")(uri "${KIPRJMOD}/Libraries/KiCAD/footprints.pretty")(options "")(descr ""))
 )

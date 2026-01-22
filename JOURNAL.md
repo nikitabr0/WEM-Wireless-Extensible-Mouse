@@ -28,3 +28,17 @@ USB protections: [MDD(Microdiode Semiconductor) SMF5.0A](https://www.lcsc.com/pr
 So far I've chosen the main componenets and done the USB-C port schematics.
 
 ![2026.01.18 schematic](<Images/2026.01.18 schematic.svg>)
+
+
+## 2026.01.22 - 3h
+### Voltage regulators, continuing with schematic
+
+I found the MCP1801 series voltage regulators, which I'll be using to convert battery voltage to 3.3V and 1.8V.
+
+I'll be using [MCP1801T-3302I/OT](https://www.lcsc.com/product-detail/C3040615.html) and [MCP1801T-1802I/OT](https://www.lcsc.com/product-detail/C556903.html).
+
+For the button switches I decided to go with Omron D2Fs, as they're cheap, reliable and while they're not created for mouse buttons, they're widely available.
+
+I implemented the battery charger and voltage regulators in the schematic and spent some time researching antennas. I'll try to fit a F-antenna in the up-left corner for the best RF characteristics.
+
+![2026.01.22 schematic](<Images/2026.01.22 schematic.svg>)
