@@ -42,3 +42,19 @@ For the button switches I decided to go with Omron D2Fs, as they're cheap, relia
 I implemented the battery charger and voltage regulators in the schematic and spent some time researching antennas. I'll try to fit a F-antenna in the up-left corner for the best RF characteristics.
 
 ![2026.01.22 schematic](<Images/2026.01.22 schematic.svg>)
+
+## 2026.01.23 2.5h
+### Mouse wheel encoder and schematics
+
+Found [Kailh Mouse Scroll Wheel Encoder 9mm](https://www.aliexpress.com/item/1005001852115432.html), which I will be using. It's quite popular in DIY computer mice.
+
+Added links to components' documentations to `PCB/Docs.md`.
+
+The PAW3395DM-T6QU optical movement sensor needs a resistor to set the current to 50mA, but the datasheet provides resistances only for 2V and 1.9V (I'm using 1.8V). Using linear interpolation gave a resisitor value of 4.4 Ohms. Since the datasheet recommends a 1% tolerance (E96), I'll use a 4.53 Ohm resitor, just to be safe.
+
+Completed optical sensor, mouse wheel encoder and extensions'/MCU flashing connectors. Also decided to use 0 Ohm resistors instead of solder bridge jumpers.
+
+![2026.01.23 schematic](<Images/2026.01.23 schematic.svg>)
+
+
+TODO: battery and its connectors, button switches.
