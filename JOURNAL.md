@@ -58,3 +58,18 @@ Completed optical sensor, mouse wheel encoder and extensions'/MCU flashing conne
 
 
 TODO: battery and its connectors, button switches.
+
+## 2026.01.24 1.6h
+### Took apart my current mouse and more schematics
+
+Continued with schematics. Added switches and the recommended MCU wiring. Had to shift the symbols around to make some room for the MCU.
+
+Made an explorative surgery on my current mouse and based on that made some decisions:
+
+1. I will use [11mm version](https://www.aliexpress.com/item/1005007462295852.html) of the rotary encoder, the 9mm would probably be a little too short. Also I found a cheaper offer.
+
+2. I will use [Kailh Silent Micro Switch MI627301D07](https://www.aliexpress.com/item/1005010180023487.html) instead of D2Fs. My current mouse has these and they make close to zero noise, which I really like.
+
+
+Also realised that the last two schematics snapshots had the wrong date.
+![2026.01.24 schematic](<Images/2026.01.24 schematic.svg>)
