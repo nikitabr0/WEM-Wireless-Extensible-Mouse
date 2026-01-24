@@ -62,7 +62,11 @@ TODO: battery and its connectors, button switches.
 ## 2026.01.24 1.6h
 ### Took apart my current mouse and more schematics
 
+<<<<<<< HEAD
 Continued with schematics. Added switches and the recommended MCU wiring. Had to shift the symbols around to make some room for the MCU.
+=======
+Continued with schematics. Added switches and the recommended MCU wiring. Had to shift the symbols around to make some room for the MCU
+>>>>>>> 746e019 (More schematics)
 
 Made an explorative surgery on my current mouse and based on that made some decisions:
 
