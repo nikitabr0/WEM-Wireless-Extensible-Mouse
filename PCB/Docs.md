@@ -10,6 +10,10 @@
 
 [Leiditech TPD2EUSB30DRTR](https://www.lcsc.com/datasheet/C3040102.pdf)
 
-[MCP1801T-3302I/OT and MCP1801T-1802I/OT](https://ww1.microchip.com/downloads/en/DeviceDoc/22051D.pdf)
+[MCP1801T-3302I/OT](https://ww1.microchip.com/downloads/en/DeviceDoc/22051D.pdf)
 
 [Kailh Silent Micro Switch MI627301D07](https://www.kailhswitch.com/info/kailh-silent-micro-switch-mi627301d-35964852.html)
+
+[LT1761ES5-2](https://www.analog.com/media/en/technical-documentation/data-sheets/1761sff.pdf)
+
+[ALPSALPINE SSSS223600](https://www.lcsc.com/datasheet/C255513.pdf)

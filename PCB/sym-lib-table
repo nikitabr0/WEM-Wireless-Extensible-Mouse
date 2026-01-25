@@ -6,4 +6,5 @@
   (lib (name "MCP1801T-3302I_OT")(type "KiCad")(uri "${KIPRJMOD}/Libraries/MCP1801T_3302I_OT/MCP1801T-3302I_OT.kicad_sym")(options "")(descr ""))
   (lib (name "2026-01-22_18-51-59")(type "KiCad")(uri "${KIPRJMOD}/Libraries/KiCAD/2026-01-22_18-51-59.kicad_sym")(options "")(descr ""))
   (lib (name "2026-01-22_18-48-37")(type "KiCad")(uri "${KIPRJMOD}/Libraries/KiCADv6/2026-01-22_18-48-37.kicad_sym")(options "")(descr ""))
+  (lib (name "2026-01-25_10-34-58")(type "KiCad")(uri "${KIPRJMOD}/Libraries/KiCADv6/2026-01-25_10-34-58.kicad_sym")(options "")(descr ""))
 )

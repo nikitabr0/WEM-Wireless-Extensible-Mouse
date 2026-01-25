@@ -43,6 +43,7 @@ I implemented the battery charger and voltage regulators in the schematic and sp
 
 ![2026.01.22 schematic](<Images/2026.01.22 schematic.svg>)
 
+
 ## 2026.01.23 2.5h
 ### Mouse wheel encoder and schematics
 
@@ -56,8 +57,6 @@ Completed optical sensor, mouse wheel encoder and extensions'/MCU flashing conne
 
 ![2026.01.23 schematic](<Images/2026.01.23 schematic.svg>)
 
-
-TODO: battery and its connectors, button switches.
 
 ## 2026.01.24 1.6h
 ### Took apart my current mouse and more schematics
@@ -73,3 +72,34 @@ Made an explorative surgery on my current mouse and based on that made some deci
 
 Also realised that the last two schematics snapshots had the wrong date.
 ![2026.01.24 schematic](<Images/2026.01.24 schematic.svg>)
+
+
+## 2026.01.25 4.5h
+### Finished schematics
+
+Decided to switch to [LT1761ES5-2](https://www.aliexpress.com/item/1005009716344832.html) for the optical sensor voltage regulator. It provides 2V instead of 1.8V, which should mean a more stable performance.
+
+Will be using [this 1000mAh 3.7V Li-Po battery](https://www.aliexpress.com/item/32988574923.html).
+
+
+Modified the power path:
+1. [The ALPSALPINE SSSS223600 switch](https://www.lcsc.com/product-detail/C255513.html) allows to switch off the entire mouse, when it runs on battery power and also controls wireless communication mode.
+2. [The 1N5817 diode](https://www.lcsc.com/product-detail/C727114.html) provides bypass power from USB at all times regardless of the switch's state.
+
+Found some componenets:
+- [Antenna inductor](https://www.lcsc.com/product-detail/C40353066.html)
+- [32MHz crystal](https://www.lcsc.com/product-detail/C37635331.html)
+- [Female USB-C](https://www.lcsc.com/product-detail/C7095263.html)
+
+
+LEDs:
+- [Blue - charging](https://www.lcsc.com/product-detail/C108412.html)
+- [Green - power good](https://www.lcsc.com/product-detail/C5123492.html)
+- [Red - low battery](https://www.lcsc.com/product-detail/C130114.html)
+
+Added battery connector, finished the MCU wiring, made a footprint for Kailh switches and added them to the schematic.
+
+![2026.01.25 schematic](<Images/2026.01.25 schematic.svg>)
+![2026.01.25 PCB](<Images/2026.01.25 PCB.svg>)
+
+I hope I'm finally done with the schematics!
