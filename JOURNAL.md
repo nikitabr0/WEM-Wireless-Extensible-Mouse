@@ -103,3 +103,23 @@ Added battery connector, finished the MCU wiring, made a footprint for Kailh swi
 ![2026.01.25 PCB](<Images/2026.01.25 PCB.svg>)
 
 I hope I'm finally done with the schematics!
+
+
+
+## 2026.01.30 1h:
+### A few schematics modifications and starting with firmware
+
+After familiarising myself with ZMK, I made some changes to the schematic:
+1. Battery jumper to disable battery or add a battery switch and a soft power button to use ZMK's soft shutdown. The idel current draw will be higher, but it should be safer.
+2. Added a battery voltage divider on nRF's ADC pin to be able to read battery voltage.
+
+Also I removed some pull-up resistors from the motion sensor, as a better datasheet, I found, indicated, that there's no need for them.
+
+Started writing the firmware. The basics don't seem to be that hard, but I couldn't get it to build properly, as it couldn't find my custom board for some reason. But I'm too tired to deal with it today.
+
+I had to move the whole firmware to a different repo, because of ZMK's build toolchain, so I'll have to change the structure of my project. Though I'm hoping I'll be able to set up ZMK's build toolchain in a container and keep it in this repo.
+
+[For now the firmware is here.](https://github.com/nikitabr0/WEM-ZMK-config)
+
+![2026.01.30 schematic](<Images/2026.01.30 schematic.svg>)
+![2026.01.30 PCB](<Images/2026.01.30 PCB.svg>)
