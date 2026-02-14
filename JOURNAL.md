@@ -123,3 +123,22 @@ I had to move the whole firmware to a different repo, because of ZMK's build too
 
 ![2026.01.30 schematic](<Images/2026.01.30 schematic.svg>)
 ![2026.01.30 PCB](<Images/2026.01.30 PCB.svg>)
+
+
+
+
+## 2026.02.15 5h:
+### It's been 2.5 weeks... PCB routing
+
+For the past 3 weeks (mainly weekends) I've been trying to learn ZMK and made some attempts at starting my firmware. So far I've tried writing from scratch, copying other nRF52840 boards and asking (forcing) LLMs (soulless machines) to help me write (write for me) the firmware. Most of the time I was just playing with ZMK to see what will stick. I'm not going to count that time, since it was barely productive. I've learned a lot, but done nothing. Now I've found an actual guide for creating a custom board, so I'm going to try that in a few days.
+
+Yesterday I finally started routing the PCB. So far it's going quite well. I've made multiple mistakes with RF circuitry (stubs, curvy traces, unmatched impedance), but fellow blueprinters pointed them out to me.
+
+Initially I put vias inside nRF's pads, since it's aQFN-73 package has a bunch of pins, that are inaccessible otherwise, but tty7 (this guy helped me the most) reminded me that JLCPCB charges extra for those, so I had to reassign some pins in the schematic, so they would be on the outer edge of the package.
+
+I've tried adding the forward and back butons on a separate mini-PCB, that I would soldered sideways to the main one in order to have the buttons oriented to the side. I am using mousebites to connect the two PCBs in hope, that JLCPCB will be nice and won't ask too much extra for 2 designs in one order.
+
+Next I have to protect the oscillator from RF interference, finish power management, connect the movement sensor and add the last buttons.
+
+![2026.02.15 schematic](<Images/2026.02.15 schematic.svg>)
+![2026.02.15 PCB](<Images/2026.02.15 PCB.png>)

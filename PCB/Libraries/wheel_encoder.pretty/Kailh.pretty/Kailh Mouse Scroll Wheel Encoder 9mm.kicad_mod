@@ -73,14 +73,14 @@
 		(uuid "a7f4e62a-e54f-4500-adc0-3f0aa05c1a53")
 	)
 	(fp_rect
-		(start -5.8 0.7)
-		(end 5.8 -4.4)
+		(start -6.4 1.2)
+		(end 6.4 -5)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(fill no)
-		(layer "Margin")
+		(layer "F.CrtYd")
 		(uuid "2c082cfb-e6c1-427a-9ca8-15bdee4a94bb")
 	)
 	(pad "A" thru_hole oval
