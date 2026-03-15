@@ -142,3 +142,14 @@ Next I have to protect the oscillator from RF interference, finish power managem
 
 ![2026.02.15 schematic](<Images/2026.02.15 schematic.svg>)
 ![2026.02.15 PCB](<Images/2026.02.15 PCB.png>)
+
+
+
+## 2026.03.15 1.9h:
+### Finally back to this project and ... realised my PCB is hopeless
+
+I finally found some time to continue routing, but after almost 2 hours found that the microcontroller region of the PCB is too crowded and I'm going to have to completely reroute it. At one point I tried removing the reset jumper for nRF, but that didn't really help.
+
+I probably won't be able to finish this project before the Blueprint deadline (31st March).
+
+![2026.03.15 PCB](<Images/2026.03.15 PCB.png>)
